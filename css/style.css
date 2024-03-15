@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
+}
+/*--------GRID----------*/
+.padre{
+    background: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: auto;
+}
+
+.hijo{
+    background-color: orange;
+    border-style: solid;
+    border-color: white;
+    font-size: 50px;
+}
+
+.hijo1{
+    background-color: firebrick;
+    border-style: solid;
+    border-color: white;
+    font-size: 50px;
+    grid-column: 1/5;
+}
+.hijo2{
+    background-color: greenyellow;
+    border-style: solid;
+    border-color: white;
+    font-size: 50px;
+    grid-column: 1/3;
+}
+.hijo5{
+    background-color: hotpink;
+    border-style: solid;
+    border-color: white;
+    font-size: 50px;
+    grid-column: 1/2;
+}
+.hijo6{
+    background-color: rgb(109, 93, 182);
+    border-style: solid;
+    border-color: white;
+    font-size: 50px;
+    grid-column: 2/5;
+}
+.hijo7{
+    background-color: rgb(18, 236, 113);
+    border-style: solid;
+    border-color: white;
+    font-size: 50px;
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+.hijo8{
+    background-color: rgb(94, 190, 224);
+    border-style: solid;
+    border-color: white;
+    font-size: 50px;
+    grid-column: 3/5;
+}
+.hijo9{
+    background-color: rgb(199, 128, 238);
+    border-style: solid;
+    border-color: white;
+    font-size: 50px;
+    grid-column: 3/5;
+}
+
+
+/*-----------FLEX--------*/
+.principal{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    
+}
+.uno{
+    background-color: red;
+    width: 580px;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+
+.a{
+    display: flex;
+    flex-direction: row;
+}
+.b{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.uno-1{
+    background-image: radial-gradient(at 20px 20px, rgb(202, 252, 0), rgba(0, 157, 255, 0.468));
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.uno-2{
+    background-image: radial-gradient(at 20px 20px, rgb(105, 27, 119), rgb(65, 112, 106));
+    height: 100px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.uno-3{
+    background-image: radial-gradient(at 20px 20px, rgb(240, 175, 9), rgb(65, 112, 106));
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.uno-4{
+    background-image: radial-gradient(at 20px 20px, rgb(0, 255, 213), yellow);
+    height: 100%;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
